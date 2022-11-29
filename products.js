@@ -26,7 +26,7 @@ const produtos = [
 
 function listar() {
     produtos.forEach(p => {
-        console.log(p)
+        console.log(p, "alguma coisa")
     })
 }
 return listar;
@@ -37,3 +37,10 @@ function listar_por_categoria() {
     })
 }
 return listar_por_categoria;
+
+function listar_por_valor() {
+    produtos.forEach(valor => {
+        console.log(valor)
+    })
+}
+return listar_por_valor;
